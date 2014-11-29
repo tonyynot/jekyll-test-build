@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- meta information -->
+<meta charset="utf-8">
+<meta name="description" 
+      content="Praesent tincidunt vestibulum sem nec eleifend. Pellentesque adipiscing mollis adipiscing. Sed ipsum sem, eleifend eg..." >
+<meta name="author" content="Anthony Ramella">
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<!-- title -->
+<title>Photo Gallery</title>
+
+<!-- icons -->
+<link rel="shortcut icon" href="/public/images/favicon.ico" />
+
+<!-- stylesheets -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+<link rel="stylesheet" href="/public/css/responsive.gs.12col.css">
+<link rel="stylesheet" href="/public/css/animate.min.css">
+<link rel="stylesheet" href="/public/css/main.css">
+
+<!-- Google fonts -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&subset=latin-ext">
+
+
+<!-- feed links -->
+<link rel="alternate" href="/feed.xml" type="application/rss+xml" title="">
+
+  </head>
+  <body>
+    <div class="container azul">
+      <header class="top row gutters">
+        <div class="col span_2 center">
+          <!-- TODO: add baseurl to the logo link -->
+          <a href="" id="logo" title="insymmetry"
+             style="background-image: url(/public/images/logo.png);"></a>
+        </div>
+        <nav class="col span_10 top-navbar">
+  
+  <a href="/" title="Blog"
+     >Blog</a>
+  
+  <a href="/about" title="About"
+     >About</a>
+  <a href="/gallery.html" class="current-page" title="Gallery">Gallery</a>
+
+  <a href="/contact" title="Contact">Contact</a>
+
+</nav>
+
+      </header>
+
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <div id="links">
+    <a href="/public/images/00.jpg" title="brknlght" data-gallery>
+        <img src="/public/images/00.jpg" height="100" width="100" alt="what once gave light">
+    </a>
+    <a href="/public/images/1 getaway.jpg" title="getaway" data-gallery>
+        <img src="/public/images/1 getaway.jpg" height="150" width="150" alt="getaway">
+    </a>
+    <a href="/public/images/2 this is not my beautiful house.jpg" title="this is not my beautiful house" data-gallery>
+        <img src="/public/images/2 this is not my beautiful house.jpg" height="100" width="100" alt="this is not my beautiful house">
+    </a>
+     <a href="/public/images/3 inside.jpg" title="inside" data-gallery>
+        <img src="/public/images/3 inside.jpg" height="100" width="100" alt="inside">
+    </a>
+  	<a href="/public/images/4 cabin fervor.jpg" title="cabin fervor" data-gallery>
+        <img src="/public/images/4 cabin fervor.jpg" height="150" width="150" alt="cabin fervor">
+    </a>
+     <a href="/public/images/5 sticks_stones.jpg" title="sticks and stones" data-gallery>
+        <img src="/public/images/5 sticks_stones.jpg" height="150" width="150" alt="sticks_stones">
+    </a>
+     <a href="/public/images/6 underneath.jpg" title="underneath" data-gallery>
+        <img src="/public/images/6 underneath.jpg" height="100" width="100" alt="underneath">
+    </a>
+     <a href="/public/images/7 closed for renovation.jpg" title="closed for renovation" data-gallery>
+        <img src="/public/images/7 closed for renovation.jpg" height="100" width="100" alt="renovation">
+    </a>
+</div>
+
+    <!-- scripts -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="js/bootstrap-image-gallery.min.js"></script>
+
+  
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/public/js/jquery.fitvids.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("article").fitVids();
+      });
+    </script>
+  </body>
+</html>

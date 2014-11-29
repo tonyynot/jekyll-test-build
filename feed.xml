@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Brume</title>
-    <link></link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <link>/in-symmetry</link>
+    <atom:link href="/in-symmetry/feed.xml" rel="self" type="application/rss+xml" />
     <description>It's simple. It's easy to use. It's a Jekyll theme.</description>
     <language>en-us</language>
-    <pubDate>Fri, 28 Nov 2014 21:34:03 -0500</pubDate>
-    <lastBuildDate>Fri, 28 Nov 2014 21:34:03 -0500</lastBuildDate>
+    <pubDate>Sat, 29 Nov 2014 08:06:51 -0500</pubDate>
+    <lastBuildDate>Sat, 29 Nov 2014 08:06:51 -0500</lastBuildDate>
 
     
       <item>
         <title>Demo post</title>
-        <link>/demo-post</link>
+        <link>/in-symmetry/demo-post</link>
         <pubDate>Fri, 07 Mar 2014 00:00:00 -0500</pubDate>
         <author>Aigars Dzerviniks</author>
         <description>&lt;p&gt;Praesent tincidunt vestibulum sem nec eleifend. Pellentesque adipiscing mollis adipiscing. Sed ipsum sem, eleifend eget dapibus in, tincidunt ut dolor. Curabitur gravida urna leo, eget auctor turpis feugiat non. Vivamus pharetra, lorem id ullamcorper rutrum, eros erat condimentum erat, ac dignissim lorem nisi nec nunc. Praesent tellus mi, volutpat quis nisl et, consectetur blandit nibh.&lt;/p&gt;
